@@ -35,7 +35,7 @@ Open `fare_prediction.ipynb` in Google Colab or Jupyter and run all cells. This 
 ### 2. Set up the API
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/hasnainkhan499/pakistan-fare-predictor>
 cd fare_prediction
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate

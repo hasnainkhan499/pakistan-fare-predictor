@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-MODEL_PATH = os.environ.get("MODEL_PATH", "fare_model.pkl")
+MODEL_PATH = os.environ.get("MODEL_PATH", "fare_model (1).pkl")
 model = joblib.load(MODEL_PATH)
 
 TIME_OF_DAY_MAP = {"morning": 0, "afternoon": 1, "evening": 2, "night": 3}
